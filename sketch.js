@@ -66,9 +66,8 @@ function draw() {
     background(bg);
     mc.velocityY=-2.5;
     mc.visible=true;
-fill("blue");
-    textFont(font);
-    textSize(20);
+fill("white");
+    textSize(40);
     text("Developed by Hrithik Ram Sudhakaran",0,windowHeight-10);
     text(message,windowWidth-strl*1.45,windowHeight-10);
     if(mc.y<windowHeight-(windowHeight/2)){
