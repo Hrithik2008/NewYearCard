@@ -38,7 +38,7 @@ giftSprite.scale=0.6;
   mc=createSprite(windowWidth/2,windowHeight-(windowHeight/19),1,1);
   mc.addImage(mcImg);
   mc.visible=false;
-  mc.scale=1.6;
+  mc.scale=0.6;
 }
 
 function draw() {
