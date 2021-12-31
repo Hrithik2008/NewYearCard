@@ -59,13 +59,13 @@ function draw() {
   rect(ground.position.x,ground.position.y,windowWidth,10);
 
   if (giftSprite.isTouching(groundSprite)) {
+    fill("white");
+    textSize(26);
+    text("Developed by Hrithik Ram Sudhakaran",0,windowHeight-10);
     giftSprite.visible=false;
     background(bg);
     mc.velocityY=-2.5;
     mc.visible=true;
-fill("white");
-    textSize(26);
-    text("Developed by Hrithik Ram Sudhakaran",0,windowHeight-10);
     if(mc.y<windowHeight-(windowHeight/2)){
       mc.velocityY=0;
     }
