@@ -24,7 +24,7 @@ function setup() {
   console.log(ground.position.x);
 
   var gift_options = {
-    restitution : 0.8
+    restitution : 0
 }
   gift = Bodies.rectangle(windowWidth/2,20,227,210,gift_options);
   World.add(world,gift);
@@ -48,8 +48,8 @@ function draw() {
   //gift.position.y=mouseY;
   giftSprite.x = gift.position.x;
   giftSprite.y = gift.position.y;
-  giftSprite.width = windowHeight/10;
-  giftSprite.height = windowHeight/10;
+  giftSprite.width = gift.width;
+  giftSprite.height = gift.height;
   groundSprite.x = ground.position.x;
   groundSprite.y = ground.position.y;
   groundSprite.width=windowWidth;
