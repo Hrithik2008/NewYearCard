@@ -5,9 +5,9 @@ const Bodies = Matter.Bodies;
 var engine,world,ground,gift,giftSprite,giftImg,mc,mcImg,message;
 
 function preload(){
-  giftImg=loadImage("GImg.jpg");
+  giftImg=loadImage("GImg1.jpg");
   bg=loadGif("FW.gif");
-  mcImg=loadImage("MC.jpg");
+  mcImg=loadImage("MC1.jpg");
   font=loadFont("Font.otf");
 }
 
