@@ -31,7 +31,7 @@ function setup() {
 
   giftSprite=createSprite(0,0,10,10);
   giftSprite.addImage(giftImg);
-giftSprite.scale=0.5;
+giftSprite.scale=0.6;
   groundSprite=createSprite(0,0,10,10);
   groundSprite.visible=false;
  
